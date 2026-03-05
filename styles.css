@@ -54,6 +54,7 @@ a:hover {
 
 .main-nav {
   display: flex;
+  align-items: center;
   gap: 12px;
   flex-wrap: wrap;
 }
@@ -74,11 +75,13 @@ a:hover {
 
 .dropdown {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .dropdown-menu {
   position: absolute;
-  top: calc(100% + 6px);
+  top: 100%;
   left: 0;
   min-width: 160px;
   background: #fff;
@@ -94,6 +97,12 @@ a:hover {
 .dropdown:hover .dropdown-menu,
 .dropdown:focus-within .dropdown-menu {
   display: block;
+}
+
+.dropdown-toggle:focus-visible,
+.nav-link:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 2px;
 }
 
 .dropdown-item {
