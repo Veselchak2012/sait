@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-label="Технологічний фон">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061035"/>
+      <stop offset="100%" stop-color="#03061a"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#52e5ff"/>
+      <stop offset="50%" stop-color="#6ffb8f"/>
+      <stop offset="100%" stop-color="#6a75ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <g stroke="url(#wave1)" stroke-width="4" fill="none" opacity="0.9">
+    <path d="M0,70 C220,20 420,120 650,70 C860,25 1080,115 1300,70 C1420,45 1520,35 1600,58"/>
+    <path d="M0,95 C230,40 430,145 670,95 C900,50 1110,135 1320,95 C1440,70 1530,60 1600,82" opacity="0.75"/>
+    <path d="M0,330 C220,280 430,390 650,330 C860,280 1090,395 1300,335 C1430,300 1520,290 1600,314"/>
+    <path d="M0,355 C220,305 440,415 665,355 C885,305 1110,420 1325,360 C1445,325 1530,315 1600,338" opacity="0.75"/>
+  </g>
+  <g fill="#78d8ff" opacity="0.3">
+    <circle cx="1420" cy="70" r="10"/>
+    <circle cx="1450" cy="120" r="6"/>
+    <circle cx="1500" cy="90" r="8"/>
+    <circle cx="1460" cy="170" r="12"/>
+    <circle cx="1380" cy="150" r="7"/>
+  </g>
+  <g stroke="#6f7cff" stroke-width="2" fill="none" opacity="0.25">
+    <polygon points="70,80 95,120 45,120"/>
+    <polygon points="240,60 280,120 200,120"/>
+    <polygon points="1320,285 1360,350 1280,350"/>
+    <polygon points="1180,310 1210,360 1150,360"/>
+  </g>
+</svg>

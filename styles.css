@@ -195,6 +195,29 @@ main {
   text-decoration: none;
 }
 
+
+.welcome-banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 220px;
+  border-radius: 14px;
+  background-image: linear-gradient(rgba(2, 10, 35, 0.45), rgba(2, 10, 35, 0.55)), url("images/header-tech.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.welcome-banner h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.55);
+}
+
 .site-footer {
   text-align: center;
   color: var(--muted);
@@ -210,5 +233,10 @@ main {
   .top-bar {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .welcome-banner {
+    min-height: 180px;
+    border-radius: 0;
   }
 }
