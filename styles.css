@@ -201,7 +201,7 @@ main {
   margin: 0 auto;
   min-height: 220px;
   border-radius: 14px;
-  background-image: linear-gradient(rgba(2, 10, 35, 0.45), rgba(2, 10, 35, 0.55)), url("images/header-tech.svg");
+  background-image: linear-gradient(rgba(2, 10, 35, 0.45), rgba(2, 10, 35, 0.55)), url("images/header-uploaded.jpg"), url("images/header-tech.svg");
   background-size: cover;
   background-position: center;
   display: flex;
