@@ -181,6 +181,10 @@ main {
   margin: 0;
 }
 
+.lesson-card .button {
+  margin-top: auto;
+}
+
 .button {
   display: inline-block;
   background: var(--primary);
