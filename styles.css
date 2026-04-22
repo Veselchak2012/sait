@@ -241,8 +241,8 @@ main {
     width: 100%;
   }
 
-  .dropdown:focus-within .dropdown-menu,
-  .dropdown:active .dropdown-menu {
+  .dropdown.open .dropdown-menu,
+  .dropdown:focus-within .dropdown-menu {
     display: block;
   }
 }
