@@ -231,13 +231,18 @@ main {
   }
 
   .dropdown-toggle {
-    pointer-events: none;
+    cursor: pointer;
   }
 
   .dropdown-menu {
     position: static;
-    display: block;
+    display: none;
     margin-top: 6px;
     width: 100%;
+  }
+
+  .dropdown:focus-within .dropdown-menu,
+  .dropdown:active .dropdown-menu {
+    display: block;
   }
 }
