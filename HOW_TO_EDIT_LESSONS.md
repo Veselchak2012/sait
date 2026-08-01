@@ -7,6 +7,7 @@
 - `class6.html` — теми для 6 класу
 - `class7.html` — теми для 7 класу
 - `class8.html` — теми для 8 класу
+- `class9.html` — теми для 9 класу
 
 ## Структура однієї картки
 У кожному файлі знайдіть блок:
@@ -44,6 +45,7 @@
 - `lessons/class6/lesson1.html`, ...
 - `lessons/class7/lesson1.html`, ...
 - `lessons/class8/lesson1.html`, ...
+- `lessons/class9/lesson1.html`, ...
 
 Відкрийте потрібний файл і редагуйте прямо в HTML:
 - назву теми (`<h2>`),
