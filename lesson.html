@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Цифрова освіта — Сторінка уроку</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-bar">
+        <h1 class="site-title">Цифрова освіта</h1>
+        <nav class="main-nav" aria-label="Головне меню">
+          <a class="nav-link" href="index.html">Головна</a>
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#">Уроки ▾</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="class5.html">5 клас</a>
+              <a class="dropdown-item" href="class6.html">6 клас</a>
+              <a class="dropdown-item" href="class7.html">7 клас</a>
+              <a class="dropdown-item" href="class8.html">8 клас</a>
+              <a class="dropdown-item" href="class9.html">9 клас</a>
+            </div>
+          </div>
+          <a class="nav-link" href="materials.html">Корисні матеріали</a>
+          <a class="nav-link" href="about.html">Про мене</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2 id="lesson-title">Тема уроку (шаблон)</h2>
+        <p><strong>Клас:</strong> <span id="lesson-class">—</span></p>
+
+        <h3>Опис теми</h3>
+        <p>
+          Тут буде повний опис теми уроку. Додайте мету, очікувані результати навчання,
+          ключові поняття та план проведення заняття.
+        </p>
+
+        <h3>Презентація</h3>
+        <p><a href="#">Додати посилання на презентацію (Google Slides / PPT)</a></p>
+
+        <h3>Тестові завдання</h3>
+        <p><a href="#">Додати посилання на тест (Google Forms / Classtime тощо)</a></p>
+
+        <h3>Вправи та практична робота</h3>
+        <p><a href="#">Додати практичні вправи та інструкції</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">© 2026 Цифрова освіта</footer>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const classNumber = params.get('class') || 'невідомо';
+      const lessonNumber = params.get('lesson') || 'невідомо';
+
+      document.getElementById('lesson-class').textContent = classNumber;
+      document.getElementById('lesson-number').textContent = lessonNumber;
+      document.getElementById('lesson-title').textContent = `Тема уроку ${lessonNumber} (шаблон)`;
+    </script>
+      <script src="menu.js"></script>
+  </body>
+</html>
